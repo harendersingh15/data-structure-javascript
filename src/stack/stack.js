@@ -3,8 +3,6 @@ class Stack {
         this.items = [];
     }
 
-
-
     push(element) {
         this.items.push(element);
     }
