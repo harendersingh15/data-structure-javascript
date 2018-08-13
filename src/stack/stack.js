@@ -14,6 +14,8 @@ class Stack {
         this.items.pop();
     }
 
+
+
     peek() {
         return this.items[this.items.length - 1];
     }
