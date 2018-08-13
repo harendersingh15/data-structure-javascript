@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+<script src="./linked-list.js"></script>
+
+<script>
+    const sll = new SingleLinkedList();
+    sll.addNode(383);
+    sll.addNode(484);
+    sll.addNode(392);
+    sll.addNode(975);
+    // sll.insertAtPosition(500, 1);
+    sll.traverse();
+    console.log(`#######################`);
+    // console.log(sll.deleteAtPosition(0));
+
+    const sll2 = new SingleLinkedList();
+    sll2.addNode(383);
+    sll2.addNode(484);
+    sll2.addNode(392);
+    sll2.addNode(975);
+    sll2.traverse();
+
+    console.log(sll.compareTwoLinkedList(sll, sll2));
+</script>
+
+<body>
+
+
+</body>
+
+</html>
