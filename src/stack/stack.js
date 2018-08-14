@@ -6,14 +6,14 @@ class Stack {
     push(element) {
             this.items.push(element);
         }
-        //
+        ///
     pop() {
-        if (this.items.length == 0)
-            return "Underflow";
+            if (this.items.length == 0)
+                return "Underflow";
 
-        this.items.pop();
-    }
-
+            this.items.pop();
+        }
+        ///
     peek() {
         return this.items[this.items.length - 1];
     }
